@@ -1,0 +1,57 @@
+Content{
+    max-width: 1600 px;
+    margin: 0 auto;
+}
+
+nav a{
+background-color: #ddf8e8;
+text-align: center;
+text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #000000;
+    color: #d9c2a3;
+}
+
+hero-msg h1{
+    background-color: #cdd5d1;
+}
+
+#hero-msg h4{
+    background-color: #b4a6ab;
+}
+
+.button-box{
+    background-color: #946e83;
+}
+
+main section{
+    background-color: #615055;
+}
+
+#background{
+    height: 725px;
+    background-color: #ffe4c4;
+}
+
+.home-title{
+    color: #000000;
+}
+
+.icon{
+    width: 80px;
+}
+
+.book{
+    text-decoration: none;
+}
+
+.join{
+    text-decoration: none;
+}
+
+footer p a:hover{
+    font-size: 1.2em;
+    text-decoration: underline;
+}
