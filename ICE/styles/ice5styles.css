@@ -47,11 +47,11 @@ body, html {
     display: flex;
     gap: 20px;
     width: 100%;
-    justify-content: center; /* Center images horizontally */
+    justify-content: center;
 }
 
 .image-container img {
-    width: 100px; /* Set a fixed width for all images */
+    width: 100px;
     height: auto;
     border-radius: 10px;
 }
