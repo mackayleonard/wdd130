@@ -1,12 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 Content{
     max-width: 1600 px;
     margin: 0 auto;
+}
+
+body{
+    background-color: #d9c2a3;
+    font-family: "Noto Serif JP", serif;
+}
+
+header{
+    background-color: white;
+    font-family: "Noto Serif JP", serif;
+}
+
+footer{
+    background-color: #d9c2a3;
+    color: black;
 }
 
 nav a{
 background-color: #ddf8e8;
 text-align: center;
 text-decoration: none;
+color: wheat;
 }
 
 nav a:hover{
@@ -20,6 +38,7 @@ hero-msg h1{
 
 #hero-msg h4{
     background-color: #b4a6ab;
+    color: black;
 }
 
 .button-box{
@@ -27,7 +46,7 @@ hero-msg h1{
 }
 
 main section{
-    background-color: #615055;
+    background-color: #d9c2a3;
 }
 
 #background{
@@ -37,6 +56,8 @@ main section{
 
 .home-title{
     color: #000000;
+    background-color: #d9c2a3;
+    font-family: "Roboto", sans-serif;
 }
 
 .icon{
@@ -45,13 +66,40 @@ main section{
 
 .book{
     text-decoration: none;
+    color: orange;
+}
+
+.book:hover{
+    background-color: #946e83;
+    color: #000000;
 }
 
 .join{
     text-decoration: none;
+    color: #000000;
+}
+
+.join:hover{
+    background-color: white;
+    color: black;
 }
 
 footer p a:hover{
     font-size: 1.2em;
     text-decoration: underline;
+}
+
+.msg{
+    background-color: #d9c2a3;
+}
+
+.msg h2{
+    color: #000000;
+    background-color: #d9c2a3;
+    font-family: "Roboto", sans-serif, aerial;
+}
+footer a{
+    color: #000000;
+    background-color: white;
+    text-decoration: none;
 }
