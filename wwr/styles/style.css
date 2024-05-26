@@ -3,13 +3,13 @@
     margin: 0 auto;
 }
 
-h2{
+h2 {
     margin: 0;
 }
 
 body {
     background-color: #d9c2a3;
-    font-family: "verdana, garamond", "serif";
+    font-family: "verdana, garamond", serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -17,18 +17,18 @@ body {
 
 header {
     background-color: white;
-    font-family: "verdana, garamond", "serif";
+    font-family: "verdana, garamond", serif;
 }
 
 footer {
     background-color: #d9c2a3;
     color: black;
-    font-family: "verdana, garamond", "serif";
+    font-family: "verdana, garamond", serif;
     padding: 25px 50px;
     margin-top: 200px;
 }
 
-.social img{
+.social img {
     padding: 15px;
 }
 
@@ -37,7 +37,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: wheat;
-    font-family: "verdana, garamond", "serif";
+    font-family: "verdana, garamond", serif;
     padding: 35px;
 }
 
@@ -48,13 +48,13 @@ nav a:hover {
 
 #hero-msg h1 {
     background-color: #cdd5d1;
-    font-family: "verdana, garamond", "serif";
+    font-family: "verdana, garamond", serif;
 }
 
 #hero-msg h4 {
     background-color: #b4a6ab;
     color: black;
-    font-family: "verdana, garamond", "serif";
+    font-family: "verdana, garamond", serif;
 }
 
 .button-box {
@@ -73,7 +73,7 @@ main section {
 .home-title {
     color: #000000;
     background-color: #d9c2a3;
-    font-family: "verdana, garamond", "serif";
+    font-family: "verdana, garamond", serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -86,7 +86,7 @@ main section {
 .book, .join {
     text-decoration: none;
     color: black;
-    font-family: "verdana, garamond", "serif";
+    font-family: "verdana, garamond", serif;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -114,37 +114,37 @@ footer p a:hover {
     padding-top: 35px;
 }
 
-.msg p{
-    font-family: "verdana, garamond", "serif";
+.msg p {
+    font-family: "verdana, garamond", serif;
     color: #000000;
-    background-image: #d9c2a3;
-    font-size: .8em;
+    background-color: #d9c2a3;
+    font-size: 0.8em;
     padding-bottom: 15px;
 }
 
 .msg h2 {
     color: #000000;
     background-color: #d9c2a3;
-    font-family: "verdana, garamond", "serif";
+    font-family: "verdana, garamond", serif;
 }
 
 footer a {
     color: #000000;
     background-color: white;
     text-decoration: none;
-    font-family: "verdana, garamond", "serif";
+    font-family: "verdana, garamond", serif;
 }
 
-.rivers-card{
+.rivers-card {
     margin: 200px 0;
 }
 
-.camping-card{
+.camping-card {
     margin: 200px 0;
 }
 
-.rapids-card{
-    margin: 200 0;
+.rapids-card {
+    margin: 200px 0;
 }
 
 .card-img {
