@@ -3,20 +3,33 @@
     margin: 0 auto;
 }
 
+h2{
+    margin: 0;
+}
+
 body {
     background-color: #d9c2a3;
-    font-family: "cormorant garamond", "serif";
+    font-family: "verdana, garamond", "serif";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: white;
-    font-family: "cormorant garamond", "serif";
+    font-family: "verdana, garamond", "serif";
 }
 
 footer {
     background-color: #d9c2a3;
     color: black;
-    font-family: "cormorant garamond", "serif";
+    font-family: "verdana, garamond", "serif";
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+.social img{
+    padding: 15px;
 }
 
 nav a {
@@ -24,7 +37,8 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: wheat;
-    font-family: "cormorant garamond", "serif";
+    font-family: "verdana, garamond", "serif";
+    padding: 35px;
 }
 
 nav a:hover {
@@ -34,13 +48,13 @@ nav a:hover {
 
 #hero-msg h1 {
     background-color: #cdd5d1;
-    font-family: "cormorant garamond", "serif";
+    font-family: "verdana, garamond", "serif";
 }
 
 #hero-msg h4 {
     background-color: #b4a6ab;
     color: black;
-    font-family: "cormorant garamond", "serif";
+    font-family: "verdana, garamond", "serif";
 }
 
 .button-box {
@@ -59,28 +73,29 @@ main section {
 .home-title {
     color: #000000;
     background-color: #d9c2a3;
-    font-family: "cormorant garamond", "serif";
+    font-family: "verdana, garamond", "serif";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .icon {
     width: 80px;
+    padding: 10px;
 }
 
-.book {
+.book, .join {
     text-decoration: none;
     color: black;
-    font-family: "cormorant garamond", "serif";
+    font-family: "verdana, garamond", "serif";
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
     background-color: #946e83;
     color: #000000;
-}
-
-.join {
-    text-decoration: none;
-    color: #000000;
-    font-family: "cormorant garamond", "serif";
 }
 
 .join:hover {
@@ -95,17 +110,47 @@ footer p a:hover {
 
 .msg {
     background-color: #d9c2a3;
+    font-size: 1.5em;
+    padding-top: 35px;
+}
+
+.msg p{
+    font-family: "verdana, garamond", "serif";
+    color: #000000;
+    background-image: #d9c2a3;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .msg h2 {
     color: #000000;
     background-color: #d9c2a3;
-    font-family: "cormorant garamond", "serif";
+    font-family: "verdana, garamond", "serif";
 }
 
 footer a {
     color: #000000;
     background-color: white;
     text-decoration: none;
-    font-family: "cormorant garamond", "serif";
+    font-family: "verdana, garamond", "serif";
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
 }
