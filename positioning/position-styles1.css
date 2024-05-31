@@ -1,39 +1,164 @@
-body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-}
-
-.container {
+/* Activity 1 */
+.content1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     width: 400px;
     height: 500px;
 }
+.red1, .green1, .yellow1, .blue1 {
+    width: 100%;
+    height: 100px; 
+}
+.red1 { background-color: red; }
+.green1 { background-color: green; }
+.yellow1 { background-color: gold; }
+.blue1 { background-color: blue; }
 
-.red {
-    grid-column: span 2;
+/* Activity 2 */
+.content2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.red2, .green2, .yellow2, .blue2 {
+    position: absolute;
+    width: 100px; 
+    height: 100px; 
+}
+.red2 {
+    background-color: red; 
+    top: 0;
+    left: 0;
+} 
+.green2 { 
+    background-color: green; 
+    top: 0;
+    left: 100px;
+} 
+.yellow2 {
+    background-color: gold; 
+    top: 100px;
+    left: 0;
+} 
+.blue2 {
+    background-color: blue; 
+    top: 100px;
+    left: 100px;
+} 
+
+/* Activity 3 */
+.content3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+.red3, .green3, .yellow3, .blue3 {
+    width: 100%;
+    height: 100px; 
+}
+.red3 { background-color: red; }
+.green3 { background-color: green; }
+.yellow3 { background-color: gold; }
+.blue3 { background-color: blue; }
+
+/* Activity 4 */
+.content4 {
+    display: flex;
+    width: 600px;
+    height: 400px;
+}
+.red4 {
     background-color: red;
-    height: 100px;
+    width: 50%;
+    height: 100%;
 }
-
-.green {
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.green4, .yellow4, .blue4 {
+    width: 100%;
+}
+.green4 {
     background-color: green;
-    height: 100px;
+    height: 33.33%; 
 }
-
-.yellow {
+.yellow4 {
     background-color: gold;
-    height: 100px;
+    height: 33.33%; 
+}
+.blue4 {
+    background-color: blue;
+    height: 33.33%; 
 }
 
-.blue {
-    grid-column: span 2;
+/* Activity 5 */
+.content5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+}
+.red5, .green5, .yellow5, .blue5 {
+    width: 100%;
+}
+.red5 { 
+    background-color: red;
+    height: 25%;
+}
+.green5 { 
+    background-color: green;
+    height: 25%; 
+}
+.yellow5 {
+    background-color: gold;
+    height: 25%; 
+}
+.blue5 {
     background-color: blue;
-    height: 100px;
+    height: 25%; 
+}
+
+/* Activity 6 */
+.content6 {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+.red6 {
+    position: absolute;
+    background-color: red;
+    width: 300px;
+    height: 150px;
+    top: 0;
+    left: 0;
+}
+.green6 {
+    position: absolute;
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    left: 0;
+}
+.yellow6 {
+    position: absolute;
+    background-color: gold;
+    width: 150px;
+    height: 300px;
+    top: 150px;
+    right: 0;
+}
+.blue6 {
+    position: absolute;
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    top: 150px;
+    left: 150px;
 }
