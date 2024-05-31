@@ -9,11 +9,11 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     gap: 10px;
-    width: 400px; /* Adjust the width as needed */
-    height: 500px; /* Adjust the height as needed */
+    width: 400px;
+    height: 500px;
 }
 
 .red {
