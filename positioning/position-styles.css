@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    width: 400px; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height as needed */
+}
+
+.red {
+    grid-column: span 2;
+    background-color: red;
+    height: 100px;
+}
+
+.green {
+    background-color: green;
+    height: 100px;
+}
+
+.yellow {
+    background-color: gold;
+    height: 100px;
+}
+
+.blue {
+    grid-column: span 2;
+    background-color: blue;
+    height: 100px;
+}
