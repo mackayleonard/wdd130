@@ -1,4 +1,3 @@
-/* Activity 1 */
 .content1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -15,7 +14,6 @@
 .yellow1 { background-color: gold; }
 .blue1 { background-color: blue; }
 
-/* Activity 2 */
 .content2 {
     position: relative;
     width: 200px;
@@ -47,7 +45,6 @@
     left: 100px;
 } 
 
-/* Activity 3 */
 .content3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -64,7 +61,6 @@
 .yellow3 { background-color: gold; }
 .blue3 { background-color: blue; }
 
-/* Activity 4 */
 .content4 {
     display: flex;
     width: 600px;
@@ -96,7 +92,6 @@
     height: 33.33%; 
 }
 
-/* Activity 5 */
 .content5 {
     display: flex;
     flex-direction: column;
@@ -123,7 +118,6 @@
     height: 25%; 
 }
 
-/* Activity 6 */
 .content6 {
     position: relative;
     width: 600px;
