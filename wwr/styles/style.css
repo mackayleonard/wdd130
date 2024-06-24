@@ -288,10 +288,26 @@ footer {
     align-items: center;
 }
 
+#background1 {
+    background-color: white; /* Clean white background */
+    padding: 20px; /* Padding for content */
+    margin: 0 auto; /* Center content horizontally */
+    max-width: 800px; /* Limit content width for readability */
+}
+.river1 {
+    display: block; /* Ensure image behaves as a block element */
+    margin: 20px auto; /* Center image horizontally */
+    width: 50%;
+}
+h1, h2, h3 {
+    font-size: 3em; /* Larger font size for headings */
+}
 
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
+        width: 40%;
+        height: 20%;
         display: block;
         height: auto;
     }
